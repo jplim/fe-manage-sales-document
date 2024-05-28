@@ -21,9 +21,10 @@
 								<PropertyPath>DocumentCategory</PropertyPath>
 							</Collection>
 						</PropertyValue>
-						<PropertyValue Property="TargetEntities">
+						<PropertyValue Property="TargetProperties">
 							<Collection>
-								<NavigationPropertyPath/>
+                                <PropertyPath>IsOrderHidden</PropertyPath>
+                                <PropertyPath>IsQuotationHidden</PropertyPath>
 							</Collection>
 						</PropertyValue>
 					</Record>
